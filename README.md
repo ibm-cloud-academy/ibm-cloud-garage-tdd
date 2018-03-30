@@ -33,7 +33,7 @@ The API reference for jest can be found here: https://facebook.github.io/jest/do
     ```
       "scripts": {
         "test": "jest --verbose",
-        "tdd": "jest --verbose --watch"
+        "tdd": "jest --verbose --watch --onlyChanged"
       },
     ```
     
@@ -83,4 +83,61 @@ Open up `server/00-canary/canary.spec.js`, and note that:
 
 # Let's get started!
 
-Now that you're all set, let's get started with our TDD exercises!
+Now that you're all set, let's get started with the TDD exercises.
+
+As you go through the TDD exercises, keep in mind the **Four Rules of Simple Design**, 
+and the **Transformation Priority Premise**.
+
+
+## [The Four Rules of Simple Design](https://martinfowler.com/bliki/BeckDesignRules.html):
+
+* **_Passes the tests_**
+* **_Reveals intention_**
+* **_No duplication_**
+* **_Fewest elements_**
+
+
+## [The Transformation Priority Premise](https://8thlight.com/blog/uncle-bob/2013/05/27/TheTransformationPriorityPremise.html):
+
+```
+(01) [{} –> nil] no code => return nil
+
+(02) [nil->constant] nil => simple constant
+
+(03) [constant->constant+] simple constant => complex constant
+
+(04) [constant->scalar] complex constant => variable or an argument
+
+(05) [statement->statements] adding more unconditional statements.
+
+(06) [unconditional->if] splitting the execution path
+
+(07) [scalar->array]
+
+(08) [array->container]
+
+(09) [statement->recursion]
+
+(10) [if->while]
+
+(11) [expression->function] replacing an expression with a function or algorithm
+
+(12) [variable->assignment] replacing the value of a variable.
+```
+
+
+## [Simplified Transformation Priority Premise](https://8thlight.com/blog/micah-martin/2012/11/17/transformation-priority-premise-applied.html):
+
+```
+(01) constant => a value
+
+(02) scalar => a local binding, or variable
+
+(03) invocation => calling a function/method
+
+(04) conditional => if/switch/case/cond
+
+(05) while loop => applies to for loops as well
+
+(06) assignment => replacing the value of a variable
+```
