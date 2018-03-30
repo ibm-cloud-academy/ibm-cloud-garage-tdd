@@ -1,4 +1,4 @@
-const { lineCount } = require('./line-count');
+const filename = 'server/async-01-line-count-with-callback/line-count.js';
 
 describe('line count can be checked', () => {
   test('with the done parameter like with a callback');
