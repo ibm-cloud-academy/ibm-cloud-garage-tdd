@@ -5,5 +5,7 @@ describe('line count can be checked', () => {
 
   test('by returning the promise after .then');
 
-  test('by using eventually or fulfilledWith');
+  test('by using resolves');
+
+  test('by using async/await');
 });
