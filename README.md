@@ -79,7 +79,7 @@ Open up `server/00-canary/canary.spec.js`, and note that:
    
    A good introduction to the available matchers can be found here: https://facebook.github.io/jest/docs/en/using-matchers.html
    
-5. Together, the descriptions that we use in the `describe` and `test` blocks are shown in the test output. 
+5. Together, the descriptions that we use in the `describe` and `it` blocks are shown in the test output. 
    The aim is to structure and name our tests in such a way that the test output reads like a "requirements spec".   
    
 
