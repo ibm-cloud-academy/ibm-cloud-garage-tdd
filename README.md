@@ -1,6 +1,8 @@
 # Set up your project
 
 1. Install Node.js (v8.1.4 or above)
+	* Mac/Linux: Install nvm from https://github.com/creationix/nvm, then run `nvm use` from your terminal
+	* Windows: Download and install Node.js from https://nodejs.org/en/download/
 
 2. From your terminal, run `npm init`
 
