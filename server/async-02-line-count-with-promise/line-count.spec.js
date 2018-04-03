@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 const filename = 'server/async-01-line-count-with-callback/line-count.js';
 
 describe('line count can be checked', () => {

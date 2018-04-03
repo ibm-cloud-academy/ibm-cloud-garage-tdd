@@ -4,7 +4,7 @@ describe('the stack canary spec', () => {
   });
 });
 
-describe ('a stack', () => {
+describe('a stack', () => {
   it('starts empty');
   it('starts with stack size of 0');
   it('is not empty when pushed');
