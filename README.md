@@ -24,19 +24,18 @@ The API reference for jest can be found here: https://facebook.github.io/jest/do
 2. Modify your `package.json` file, replacing:
 
     ```
-      "scripts": {
+    "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
-      },
-    
+    },
     ```
     
     with
     
     ```
-      "scripts": {
+    "scripts": {
         "test": "jest --verbose",
         "tdd": "jest --verbose --watch --onlyChanged"
-      },
+    },
     ```
     
 3. Run `npm test`
@@ -45,9 +44,36 @@ The API reference for jest can be found here: https://facebook.github.io/jest/do
 
 4. Run `npm run tdd`
 
-    This command continuously watches files for changes and rerun tests related to changed file source files. 
+    This command continuously watches files for changes and rerun tests related to changed files. 
     This is the command we will be using most often during TDD. 
 
+
+# Configure pre-commit hooks [Optional]
+
+To prevent bad commits, we can configure pre-commit hooks to ensure that unit tests are run before every commit.
+
+1. Install husky with `npm install --save-dev husky`
+
+2. Modify your `package.json` file, replacing:
+
+    ```
+    "scripts": {
+        "test": "jest --verbose",
+        "tdd": "jest --verbose --watch --onlyChanged"
+    },
+    
+    ```
+    
+    with
+    
+    ```
+    "scripts": {
+        "test": "jest --verbose",
+        "tdd": "jest --verbose --watch --onlyChanged",
+        "precommit": "npm test"
+    },
+    
+    ```
 
 # Configure your IDE [Optional]
 
