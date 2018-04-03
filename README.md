@@ -71,7 +71,7 @@ Open up `server/00-canary/canary.spec.js`, and note that:
 
    You can also nest `describe` blocks if you have a hierarchy of tests.
    
-3. `test` takes two arguments. The first argument describes the test; the second argument is a function 
+3. `it` takes two arguments. The first argument describes the test; the second argument is a function 
    that contains the expectations to test.
    
 4. When you're writing tests, you often need to check that values meet certain conditions. 
