@@ -1,5 +1,5 @@
 describe('the palindrome canary spec', () => {
-  test('shows the infrastructure works', () => {
+  it('shows the infrastructure works', () => {
     expect(true).toBe(true);
   });
 });
