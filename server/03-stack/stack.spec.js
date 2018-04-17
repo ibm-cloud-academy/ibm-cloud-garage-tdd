@@ -14,6 +14,6 @@ describe('a stack', () => {
   it('overflows');
   it('underflows');
   it('pops the same one item when pushed');
-  it('pops the same two items when pushed');
+  it('pops two items with the most recent first');
   it('accepts only a positive capacity');
 });
