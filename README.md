@@ -1,5 +1,8 @@
 # Set up your project
 
+0. Clone this git repository
+    * If you haven't cloned from git.ng.bluemix.net before, you will need to create a [personal access token](https://console.bluemix.net/docs/services/ContinuousDelivery/git_working.html#git_authentication) with **api** scope
+
 1. Install Node.js (v8.1.4 or above)
 	* Mac/Linux: Install nvm from https://github.com/creationix/nvm, then run `nvm use` from your terminal
 	* Windows: Download and install Node.js from https://nodejs.org/en/download/
