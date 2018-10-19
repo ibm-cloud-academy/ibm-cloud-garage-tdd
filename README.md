@@ -7,9 +7,7 @@
 	* Mac/Linux: Install nvm from https://github.com/creationix/nvm, then run `nvm use` from your terminal
 	* Windows: Download and install Node.js from https://nodejs.org/en/download/
 
-2. From your terminal, run `npm init`
-
-3. Just accept all the defaults
+2. From your terminal, run `npm init -y`
 
 
 # Install Jest
