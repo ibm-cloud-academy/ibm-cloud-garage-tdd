@@ -9,7 +9,6 @@
 
 2. From your terminal, run `npm init -y`
 
-
 # Install Jest
 
 **Jest** is a JavaScript test framework that we can use for testing both front-end and back-end code.
