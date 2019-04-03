@@ -2,11 +2,11 @@
 const filename = 'server/async-01-line-count-with-callback/line-count.js';
 
 describe('line count can be checked', () => {
-  it('with the done parameter like with a callback');
+  it.todo('with the done parameter like with a callback');
 
-  it('by returning the promise after .then');
+  it.todo('by returning the promise after .then');
 
-  it('by using resolves');
+  it.todo('by using resolves');
 
-  it('by using async/await');
+  it.todo('by using async/await');
 });
