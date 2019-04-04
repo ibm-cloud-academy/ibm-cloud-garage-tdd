@@ -17,7 +17,7 @@ One of Jest's philosophies is to provide an integrated "zero-configuration" expe
 Conveniently, this means that it includes everything you need for TDD in a single package (test runner, assertions, 
 matchers, spies, stubs and mocks)
 
-The API reference for jest can be found here: https://facebook.github.io/jest/docs/en/api.html
+The jest documentation can be found here: https://jestjs.io/docs/en/getting-started
 
 1. Install jest with `npm install --save-dev jest`
 

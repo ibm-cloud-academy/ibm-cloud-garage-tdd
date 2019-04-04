@@ -5,13 +5,13 @@ describe('the prime factors canary spec', () => {
 });
 
 describe('a prime factors function should', () => {
-  it('return none for 1');
-  it('return 2 for 2');
-  it('return 3 for 3');
-  it('return 2, 2 for 4');
-  it('return 5 for 5');
-  it('return 2, 3 for 6');
-  it('return 7 for 7');
-  it('return 2, 2, 2 for 8');
-  it('return 3, 3 for 9');
+  it.todo('return none for 1');
+  it.todo('return 2 for 2');
+  it.todo('return 3 for 3');
+  it.todo('return 2, 2 for 4');
+  it.todo('return 5 for 5');
+  it.todo('return 2, 3 for 6');
+  it.todo('return 7 for 7');
+  it.todo('return 2, 2, 2 for 8');
+  it.todo('return 3, 3 for 9');
 });
