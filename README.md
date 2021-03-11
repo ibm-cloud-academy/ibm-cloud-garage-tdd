@@ -52,28 +52,9 @@ The jest documentation can be found here: https://jestjs.io/docs/en/getting-star
 
 To prevent bad commits, we can configure pre-commit hooks to ensure that unit tests are run before every commit.
 
-1. Install husky with `npm install --save-dev husky`
+1. Install and initialize husky with `npm install husky --save-dev && npx husky init`.  
 
-2. Modify your `package.json` file, replacing:
-
-    ```
-    "scripts": {
-        "test": "jest --verbose",
-        "tdd": "jest --verbose --watch --onlyChanged"
-    },
-    
-    ```
-    
-    with
-    
-    ```
-    "scripts": {
-        "test": "jest --verbose",
-        "tdd": "jest --verbose --watch --onlyChanged",
-        "precommit": "npm test"
-    },
-    
-    ```
+    This will create a pre-commit hook that will run the `npm test` command
 
 # Configure your IDE [Optional]
 
